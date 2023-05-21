@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/LoginPage.css">
+    <title>Login page for Void</title>
+</head>
+<body>
+    <h1>Login To Void</h1>
+    <form method="POST" action="login.php">
+        <div class="headingsContainer">
+            <h3>Sign in</h3>
+            <p>Sign in with your username and password</p>
+            <img class="Voidlogo" src="https://github.com/KartikeyVoidTeamC04/Void-Logo-Image/blob/main/Void%20Logo.png?raw=true" alt="Void Logo">
+        </div>
+        <div class="mainContainer">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <br><br>
+
+            <label for="paswrd">Password</label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+            </div>
+
+
+            <button type="submit">Login</button>
+
+            <p class="register">Not a member?  <a href="registrationpage.html">Register here!</a></p>
+
+        </div>
+
+    </form>
+
+</body>
+</html>

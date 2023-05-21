@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/registrationpage.css">
+    <title>registrationpage</title>
+  </head>
+  <body>
+
+    <form method = "POST" action="register.php">
+
+          <h1>Register to Void</h1>
+              <div class="container">
+
+        <p>Kindly fill in this form to register.</p>
+          <label for="fullname"><b>Full Name</b></label>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="fullname"
+            id="fullname"
+            required
+          />
+
+          <label for="email"><b>Email</b></label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            required
+          />
+
+          <label for="username"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter username"
+            name="username"
+            id="username"
+            required
+          />
+
+          <label for="gender"><b>Gender</b></label>
+           <div class="genderselect" >
+            <select name="gender" id="gender">
+              <option value="0">Select Gender:</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+
+            </select>
+          </div></br>
+
+          <label for="age"><b>Age</b></label>
+           <input
+             type="age"
+             placeholder="Enter age"
+             name="age"
+             id="age"
+             required
+           />
+
+          <label for="pwd"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            id="pwd"
+            required
+          />
+
+
+
+          <button type="submit">Register</button>
+        </div>
+
+        <div>
+          <p>Already have an account? <a href="LoginPage.html">Log in</a>.</p>
+        </div>
+      </div>
+
+      </form>
+
+
+  </body>
+</html>
